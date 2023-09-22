@@ -5,10 +5,10 @@ public class Main {
         int bonus;
         int totalBalance;
 
-        if(refillBalance >= 1000) {
-            bonus = refillBalance/100;
-            totalBalance = balance + refillBalance + bonus;}
-        else {
+        if (refillBalance >= 1000) {
+            bonus = refillBalance / 100;
+            totalBalance = balance + refillBalance + bonus;
+        } else {
             bonus = 0;
             totalBalance = balance + refillBalance;
         }
