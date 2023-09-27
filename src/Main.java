@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int balance = 200;
-        int refillBalance = 500;
+        int refillBalance = 1100;
         int bonus;
         int totalBalance;
 
-        if (refillBalance >= 1000) {
+        if (refillBalance > 1000) {
             bonus = refillBalance / 100;
             totalBalance = balance + refillBalance + bonus;
         } else {
